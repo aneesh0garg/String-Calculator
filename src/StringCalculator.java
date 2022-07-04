@@ -7,6 +7,7 @@ public class StringCalculator {
         String[] strArray = str.split("-|\\.");
 
         int sum = sum(strArray);
+        System.out.println("Sum: " + sum);
     }
 
     public static int sum(String[] strArray) {
